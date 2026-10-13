@@ -18,7 +18,7 @@ export default function Home() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      content: "ðŸ‘‹ Hi! I'm the ABES Engineering College FAQ Assistant. Ask me about courses, fees, admissions, placements, or campus life!",
+      content: "👋 Hi! I'm the ABES Engineering College FAQ Assistant. Ask me about courses, fees, admissions, placements, or campus life!",
     },
   ]);
   const [input, setInput] = useState("");
